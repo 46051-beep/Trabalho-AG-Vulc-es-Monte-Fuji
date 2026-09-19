@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url('../img/monte\ fuji.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section {
+    width: 50%;
+    background-color: dimgrey;
+    margin: 30px auto; /* Centraliza na tela sem precisar de float */
+    padding: 20px;
+}
+
+/* Tamanho específico da caixa do TÍTULO */
+.titulo {
+    height: 15vh;
+    text-align: center;
+    color: rgb(255, 123, 0);
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Tamanho específico da caixa do TEXTO */
+.texto {
+    height: auto; /* Aumenta automaticamente conforme o tamanho do texto */
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    line-height: 1.6;
+}
